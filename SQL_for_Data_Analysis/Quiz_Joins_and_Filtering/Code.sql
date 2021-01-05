@@ -1,5 +1,5 @@
 /*
-1. Exercicio
+1. Quiz
 */
 
 SELECT region.name region, sales_reps.name sales_reps, accounts.name account
@@ -12,7 +12,7 @@ WHERE region.name ='Midwest'
 ORDER BY accounts.name;
 
 /*
-2. Exercicio
+2. Quiz
 */
 SELECT region.name region, sales_reps.name sales_reps, accounts.name account
 FROM sales_reps
@@ -25,7 +25,7 @@ AND sales_reps.name LIKE 'S%'
 ORDER BY accounts.name;
 
 /*
-3. Exercicio
+3. Quiz
 */
 FROM sales_reps
 JOIN region
@@ -38,7 +38,7 @@ ORDER BY accounts.name;
 
 
 /*
-4. Exercicio
+4. Quiz
 */
 SELECT region.name region, accounts.name account, orders.total_amt_usd/(orders.total + 0.01) unit_price
 FROM sales_reps
@@ -52,7 +52,7 @@ WHERE orders.standard_qty > 100;
 
 
 /*
-5. Exercicio
+5. Quiz
 */
 SELECT region.name region, accounts.name account, orders.total_amt_usd/(orders.total + 0.01) unit_price
 FROM sales_reps
