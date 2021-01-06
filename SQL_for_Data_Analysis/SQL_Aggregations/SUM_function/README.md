@@ -1,6 +1,6 @@
 ## Quiz on the SUM function
 
-1.Find the total amount of poster_qty paper ordered in the orders table.
+1. Find the total amount of poster_qty paper ordered in the orders table.
 
 2. Find the total amount of standard_qty paper ordered in the orders table.
 
