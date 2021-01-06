@@ -1,11 +1,8 @@
-## Quiz on the SUM function
+## SUM Function
 
-1. Find the total amount of poster_qty paper ordered in the orders table.
+Unlike COUNT, you can only use SUM on numeric columns. However, SUM will ignore NULL values, as do the other aggregation functions you will see in the upcoming lessons.
 
-2. Find the total amount of standard_qty paper ordered in the orders table.
+### Aggregation Reminder
+An important thing to remember: aggregators only aggregate vertically - the values of a column. If you want to perform a calculation across rows, you would do this with simple arithmetic.
 
-3. Find the total dollar amount of sales using the total_amt_usd in the orders table.
-
-4. Find the total amount spent on standard_amt_usd and gloss_amt_usd paper for each order in the orders table. This should give a dollar amount for each order in the table.
-
-5. Find the standard_amt_usd per unit of standard_qty paper. Your solution should use both an aggregation and a mathematical operator.
+We saw this in the first lesson if you need a refresher, but the quiz in the next concept should assure you still remember how to aggregate across rows.
